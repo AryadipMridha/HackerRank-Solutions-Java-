@@ -1,0 +1,9 @@
+import java.io.*;   // input-output package is getting imported to this class
+class Solution      //Class name establised
+{
+   public static void main(String args[])throws IOException     //public-access specifier , static-makes a method unchangeable for any variable or instances ,void- return type,(stragrs[]) - acceptes string arguments , throws IOEx.. - throws all I/O exceptions
+    {
+        System.out.println("Hello, World.");          //S..pln() - is a funtion which prints whats inside it.
+        System.out.println("Hello, Java.");
+    }
+}
