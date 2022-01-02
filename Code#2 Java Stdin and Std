@@ -1,0 +1,13 @@
+import java.io.*;
+import java.util.*;							            //This imports the util package to the class
+
+public class Solution {
+
+    public static void main(String[] args) {
+       Scanner scan=new Scanner(System.in);	//This is Scanner class Scanner Scan(name of object) =new(is object creation) Scanner(sys.in) suggest to take input.
+       for(int i=0;i<3;i++){				        //For loop runs  by i which starts from 0 till 2 and each time loop goes through it increments by 1
+       int n=scan.nextInt();				        //For each iteration of i n takes a values through scan object created from Scanner class
+       System.out.println(n);				        // prints n
+    }
+}
+}
