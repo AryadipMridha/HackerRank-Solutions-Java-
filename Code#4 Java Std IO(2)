@@ -1,0 +1,20 @@
+package Introduction;
+import java.io.*;
+import java.util.*;
+
+	public class StandardInputOuputII
+	{
+	    public static void main(String args[])throws IOException
+	    {
+	        Scanner scan=new Scanner(System.in);
+	        int n=scan.nextInt();				//Integer taker
+	        double m=scan.nextDouble();			//Double taker
+	        scan.nextLine();					//When to take a line from scanner object which earlier took a int or double we need this line
+	        String str=scan.nextLine();			//now we need to incorporate scanner object to the created string variable remember the privious line is very important other wise it will return an parsing error
+	        
+	        System.out.println("String: "+str);
+	        System.out.println("Double: "+m);
+	        System.out.println("Int: "+n);
+	      scan.close();  
+	    }
+	}
