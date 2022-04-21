@@ -1,0 +1,19 @@
+import java.io.*;
+import java.util.*;
+public class Solution {
+
+    public static void main(String args[])throws IOException
+    {
+        Scanner scan=new Scanner(System.in);
+        System.out.println("================================");
+    
+        for(int i=0;i<3;i++)
+        {    String str=scan.next();
+            int n=scan.nextInt();
+            System.out.printf("%-15s",str);
+            System.out.printf("%03d%n",n);
+        }
+        System.out.println("================================");
+    scan.close();
+    }
+}
